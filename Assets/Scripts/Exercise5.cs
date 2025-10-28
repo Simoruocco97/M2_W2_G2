@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Exercise5 : MonoBehaviour
 {
-    int numberToFind;
-    int arraySize;
+    [SerializeField] private int numberToFind;
+    [SerializeField] private int arraySize;
     [SerializeField] private int numberOffset;
 
     // Start is called before the first frame update
@@ -22,11 +22,11 @@ public class Exercise5 : MonoBehaviour
             {
                 array[i] = numberToFind + numberOffset;
             }
-            else if (i == 3) 
+            else if (i == 3)
             {
                 array[i] = numberToFind - numberOffset;
             }
-            else if (i % 3 == 0) 
+            else if (i % 3 == 0)
             {
                 array[i] = numberToFind + numberOffset - i;
             }
