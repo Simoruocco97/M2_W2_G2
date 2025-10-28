@@ -8,10 +8,10 @@ public class Exercise2 : MonoBehaviour
     void Start()
     {
         int[] array = new int[4];
-        array[0] = 10;
-        array[1] = 20;
-        array[2] = 30;
-        array[3] = 40;
+        for (int i = 0; i < array.Length; i++)
+        {
+            array[i] = Random.Range(1, 20);
+        }
 
         Debug.Log("la somma e': " + (array[0] + array[1] + array[2] + array[3]));
         Debug.Log("il prodotto e': " + (array[0] * array[1] * array[2] * array[3]));

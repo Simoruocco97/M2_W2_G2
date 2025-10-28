@@ -29,10 +29,4 @@ public class Exercise3 : MonoBehaviour
             }
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
