@@ -28,10 +28,4 @@ public class Extra1 : MonoBehaviour
             Debug.Log("I numeri sono tutti uguali!");
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

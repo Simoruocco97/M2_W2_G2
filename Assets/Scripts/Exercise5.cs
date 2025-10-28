@@ -50,10 +50,4 @@ public class Exercise5 : MonoBehaviour
         }
         Debug.Log("Iterations Finished");
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

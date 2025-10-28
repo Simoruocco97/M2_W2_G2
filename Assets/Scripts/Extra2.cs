@@ -15,10 +15,4 @@ public class Extra2 : MonoBehaviour
             Debug.Log(operazione);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

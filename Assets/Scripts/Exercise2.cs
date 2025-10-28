@@ -16,10 +16,4 @@ public class Exercise2 : MonoBehaviour
         Debug.Log("la somma e': " + (array[0] + array[1] + array[2] + array[3]));
         Debug.Log("il prodotto e': " + (array[0] * array[1] * array[2] * array[3]));
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

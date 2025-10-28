@@ -15,10 +15,4 @@ public class Exercise4 : MonoBehaviour
             Debug.Log(startNumber + i);
         } 
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-      
-    }
 }
